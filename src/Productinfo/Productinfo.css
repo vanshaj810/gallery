@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+.pdiv{
+    font-family: 'Crimson Text', serif;
+   
+}
+.pcontainer{
+    margin-top: 100px;
+    margin-bottom: 2opx;
+}
+.rightp{
+    background-color: rgb(243, 241, 241); 
+}
+.downp{
+    background-color: rgb(243, 241, 241);
+     padding-left: 20px;
+}
+.ddownp{
+    background-color: rgb(243, 241, 241);
+    margin-bottom: 50px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.aname{
+    margin-top: 125px;
+}
+.paintingname{ 
+    font-size: 40px;
+    margin-top: 20px;
+}
+.partist{
+    font-size: 24px;
+}
+.pcommon{
+    font-size: 20px;
+}
+.pprice{
+    padding-right:120px;
+    padding-top: 20px;
+}
+.addtocart{
+    display: flex;
+    background-color: rgb(63, 63, 63);
+    color:white;
+    padding: 20px; 
+    font-size: 30px; 
+    margin-bottom: 20px;
+}
+.pimg{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    height: 250px;
+    width: 250px;
+}
+.carimg{
+    height: 600px;
+}
+.pbtn{
+    margin-left: 70px;
+    width: 100px;
+}
+.downcontainer{
+    margin-top: 20px;
+}

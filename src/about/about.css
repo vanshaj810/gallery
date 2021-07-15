@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+.galleriaabout{
+   
+    color: black;
+    margin:4rem;
+    margin-left: 11rem;
+    font-family: 'Crimson Text', serif;
+
+}
+.abouttop{
+  text-align: center;
+  font-size: 3.5rem;
+  color: black;
+}
+.abouttext{
+    background-color:rgb(243,241,241);
+    padding: 40px;
+}
+.para1{
+  text-align: center;
+  font-size: 3rem;
+}
+.para2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: -2rem;
+  }
+.galleriaabout {
+    font-size: 1.7rem;
+    
+}
+.galleriaabout img{
+ height:550px;
+ width:500px;
+}
+
+
+
+
+.galleriaabout .inner-img {
+  transition: 0.3s;
+}
+
+.galleriaabout .inner-img:hover {
+  height:650px;
+  width:600px;
+ 
+}

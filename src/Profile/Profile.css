@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+.aimg{
+    height: 250px;
+    width:250px;
+    float: left;
+    margin: 10px;
+}
+.flag{
+    height: 20px;
+}
+.profilecontainer{
+    margin-bottom: 100px;
+    font-family: 'Crimson Text', serif;
+}
+.profilecommon{
+    margin-top:40px;
+    font-size: 30px;
+}
+.profilecomm{
+font-size: 20px;
+}
+.rightcol{
+    background-color: rgb(243, 241, 241); 
+}
+ 
+.profilediv{
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(http://avante.biz/wp-content/uploads/White-Background-Image/White-Background-Image-003.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-backface-size:cover ;
+  -o-background-size: cover ;
+  background-size: cover;
+  display: flex;
+height: 640px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+}

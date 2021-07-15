@@ -1,0 +1,15 @@
+.site-footer {
+    background: #212529;
+    text-align: center;
+    color: white;
+    margin: 0rem;
+    height: 8rem;
+    position:sticky;
+    padding: 2rem;
+  }
+.footer {
+    margin-left:1rem;
+    display: inline-block;
+    
+    height: 7rem;
+ }

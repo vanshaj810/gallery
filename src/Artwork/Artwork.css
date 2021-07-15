@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+.artworktext{
+    width: 400px;
+  font-size: 20px;
+}
+.artworkbutton{
+    width: 550px;
+    font-size: 20px;
+}
+.artworkbutton:hover{
+    color: white;
+    background-color:rgb(55, 55, 247);
+    width: 550px;
+    font-size: 20px;
+ 
+}
+.artworklabel{
+    font-size: 20px;
+color: black;
+padding-top: 5px;
+
+}
+
+#artworkdiv{
+    background-color: white;
+    margin: 500px;
+    padding: 80px;
+    margin-top: 100px;
+    
+color: whitesmoke;
+}
+#artworkh1{
+  
+    color: black;
+}
+#artworkouterdiv{
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(http://avante.biz/wp-content/uploads/White-Background-Image/White-Background-Image-003.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-backface-size:cover ;
+  -o-background-size: cover ;
+  background-size: cover;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  font-family: 'Crimson Text', serif;
+
+}
+#artworkh3{
+    color: black;
+}
+#artworkimg{
+    width: 30vw;
+    height: 30vh;
+}
+.signupbutton{
+    width: 400px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.signupbutton:hover{
+    color: white;
+    background-color: rgb(51, 51, 255);
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0px 0px 15px 4px white;
+}
+
+@media (max-width:767px) {
+
+    #artworkdiv{
+        width:90vw;
+    }
+   .artworktext{
+      width:60vw;
+    }
+    .artworkbutton{
+        width:60vw;
+    }
+    #artworkh{
+        font-size: 20px;
+        text-align: center;
+    }
+}

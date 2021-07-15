@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+.paintlist{
+    margin:4rem;
+
+}
+.paintlist .card{
+padding: 2rem;
+}
+.paintlisthead{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Crimson Text', serif;
+}
+
+
+/* new code */
+.img-wrapper {  
+    
+    overflow: hidden; 
+  }
+  
+  .inner-img {
+    transition: 0.3s;
+  }
+  
+  .inner-img:hover {
+    transform: scale(1.1);
+  }

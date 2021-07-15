@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+.artistimage{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    margin-top: 15px;
+}
+.artistimage:hover{
+   opacity: 0.7;
+   height: 202px;
+    width: 202px;
+}
+.artistdiv{
+    align-items: center center;
+    font-family: 'Crimson Text', serif;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url(http://avante.biz/wp-content/uploads/White-Background-Image/White-Background-Image-003.jpg) center center fixed no-repeat;
+    -webkit-background-size:cover;
+    -moz-backface-size:cover ;
+    -o-background-size: cover ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position:relative;
+}
+.artistcard{
+    margin-top: 100px;
+    height: 370px;
+    width: 307px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.artistname{
+    text-align: center;
+}
+.artistwork{
+    align-self: center;
+}
+.artistbutton{
+    margin-left: 86px;
+}
+.artistbutton:hover{
+  
+    background-color: rgb(56, 56, 252);
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+.logintext{
+    width: 400px;
+   font-size: 20px;
+}
+.loginbutton{
+    width: 400px;  
+    font-size: 20px;
+}
+.loginbutton:hover{
+    color: white;
+    background-color: rgb(53, 53, 253);
+    font-weight: bold;
+}
+.loginlabel{
+font-size: 20px;
+color: black;
+}
+#signuph3{
+    color: black;
+}
+
+#logindiv{
+    background-color: white;
+    margin: 500px;
+    padding: 80px;  
+    margin-top: 100px;
+    color: whitesmoke;
+}
+#loginh{
+    color: black;
+}
+#outerdivv{
+    font-family: 'Crimson Text', serif;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(http://avante.biz/wp-content/uploads/White-Background-Image/White-Background-Image-003.jpg) center center fixed no-repeat;
+  -webkit-background-size:cover;
+  -moz-backface-size:cover ;
+  -o-background-size: cover ;
+  background-size: cover;
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+ 
+}
+@media (max-width:767px) {
+
+    #logindiv{
+        width:90vw;
+    }
+   .logintext{
+      width:60vw;
+    }
+    .loginbutton{
+        width:60vw;
+    }
+    #loginh{
+        font-size: 20px;
+        text-align: center;
+    }
+}

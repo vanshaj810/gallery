@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap");
+.menu-img {
+  height: 200px;
+  width: 200px;
+  align-self: center;
+  margin-top: 15px;
+}
+.menu-img:hover{
+  opacity: 0.7;
+   height: 202px;
+    width: 202px;
+}
+.menu-items{
+  font-family: 'Crimson Text', serif;
+  align-items: center center;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(http://avante.biz/wp-content/uploads/White-Background-Image/White-Background-Image-003.jpg) center center fixed no-repeat;
+  -webkit-background-size:cover;
+  -moz-backface-size:cover ;
+  -o-background-size: cover ;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  position:relative;
+}
+
+.menu-card{
+  height: 370px;
+  width: 307px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.filteraddbtn{
+  margin-left: 90px;
+}
+.filteraddbtn:hover{
+  background-color: rgb(56, 56, 252);
+}
+.menu-class h2 {
+  text-align: center;
+  color: black;
+  padding-top: 7rem;
+  padding-bottom: 1rem; 
+  font-family: 'Crimson Text', serif;
+}
+
+.filterbutton{
+  font-family: 'Crimson Text', serif;
+  margin-bottom: 2rem;
+}
+.paintingnamefilter{
+  text-align: center;
+  font-size: 0px;
+}
+
+

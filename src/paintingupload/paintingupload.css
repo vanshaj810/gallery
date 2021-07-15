@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+.paintingtext{
+    width: 400px;
+    color: black;
+    font-size: 20px;
+   
+}
+.paintingbutton{
+    width: 550px;
+    font-size: 20px;
+  
+}
+.paintingbutton:hover{
+    color: white;
+    background-color: rgb(56, 56, 252);
+ 
+    font-weight: bold;
+
+
+    box-shadow: 0px 0px 15px 4px white;
+}
+.paintinglabel{
+    color: black;
+    font-size: 20px;
+
+}
+
+
+#paintingdiv{
+    background-color: white;
+    margin: 500px;
+    padding: 80px;
+
+    margin-top: 100px;
+  
+color: whitesmoke;
+}
+#paintingh1{
+
+    color: black;
+}
+#paintingouterdiv{
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(http://avante.biz/wp-content/uploads/White-Background-Image/White-Background-Image-003.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-backface-size:cover ;
+  -o-background-size: cover ;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  font-family: 'Crimson Text', serif;
+
+}
+#paintingh3{
+    color: black;
+}
+
+
+@media (max-width:767px) {
+
+    #paintingdiv{
+        width:90vw;
+    }
+   .paintingtext{
+      width:60vw;
+    }
+    .paintingbutton{
+        width:60vw;
+    }
+    #paintingh{
+        font-size: 20px;
+        text-align: center;
+    }
+}
